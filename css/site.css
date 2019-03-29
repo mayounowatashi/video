@@ -1,0 +1,121 @@
+/* 初始化样式 */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+    margin: 0;
+}
+/* 公共样式 */
+.main{
+    width: 1174px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* 头部样式 */
+header{
+    height: 99px;
+    border-bottom: #e4e6ea solid 1px;
+    background: #f9f9f9a3;
+}
+header .logo{
+    float: left;
+    width: 214px;
+    height: 99px;
+}
+header .logo a{
+    display: block;
+    height: 99px;
+    background: url(../images/logo.png) center no-repeat;
+}
+header nav{
+    float: left;;
+    margin: 27px 0 0 130px;
+}
+header nav li{
+    float: left;
+    width: 114px;
+    height: 48px;
+    margin-left: 16px;
+}
+header nav li a{
+    display: block;
+    color: #6E798E;
+    font-size: 20px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border: #fff solid 1px;
+    text-decoration: none;
+    border-radius: 23px;
+    transition: border 300ms;
+    -webkit-transition: border 300ms;
+    -moz-transition: border 300ms;
+    -ms-transition: border 300ms;
+}
+header nav li a:hover{
+    border-color: #9fabba;
+}
+header nav li.active a{
+    border-color: #9fabba;
+}
+header .share{
+    float: right;
+    margin-top: 28px;
+}
+header .share li{
+    float: left;
+    width: 46px;
+    height: 46px;
+    margin-left: 15px;
+}
+header .share li a{
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+header .share li:first-child a{
+    border: #415E9B solid 1px;
+    background:url(../images/share-f.png) no-repeat center;
+}
+header .share li:last-child a{
+    border: #30ADE2 solid 1px;
+    background: url(../images/share-t.png) no-repeat center;
+}
+
+/*footer*/
+footer{
+    background-color: #444;;
+    height: 730px;
+    overflow: hidden;
+}
+footer ul{
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+footer ul li{
+    float: left;
+    width: 25%;
+}
+
+footer ul li a{
+    display: block;
+    color: #fff;
+    line-height: 36px;
+    text-decoration: none;
+}
+footer .info{
+   padding-top: 100PX;
+    text-align: center;
+    color: #fff;
+    clear: both;
+}
